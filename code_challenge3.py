@@ -1,0 +1,12 @@
+name = input("Please input your name --> ")
+fare = eval(input("Fare fee --> "))
+isStudent = input("Are you currently a student (yes / no) ")
+
+if isStudent.lower() == "yes" :
+	discount = fare * 0.2
+	new_fare = fare - discount 
+	print("HI",name," Your discount is ", discount,"Your new fare is ", new_fare)
+
+else:
+	print("Hi", name," you're only eligible for regular price")
+	
