@@ -63,5 +63,5 @@ if genre_choice == "3":
         print(":Oreimo")
         print(":Beka and Test")
         print(":Bakuman")
-
         print(":The Tatami Galaxy")
+
