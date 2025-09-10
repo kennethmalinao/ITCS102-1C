@@ -18,7 +18,7 @@ if genre_choice == "1":
         print(":BLEACH")
         print(":Fullmetal Alchemist")
         print(":Black Butler")
-    elif era_chose1 == "2":
+    if era_chose1 == "2":
         print("Here are the recommendations")
         print(":Demon Slayer")
         print(":My Hero Academia")
@@ -38,7 +38,7 @@ if genre_choice == "2":
         print(":Spice and Wolf")
         print(":Lovely Comflex")
         
-    elif era_chose2 == "2":
+    if era_chose2 == "2":
         print("Here are the recommendations")
         print(":Your Lie in April")
         print(":After the rain")
@@ -63,4 +63,5 @@ if genre_choice == "3":
         print(":Oreimo")
         print(":Beka and Test")
         print(":Bakuman")
+
         print(":The Tatami Galaxy")
